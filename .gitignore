@@ -167,3 +167,5 @@ converted_models/
 raw_assets/
 raw_models/
 downloaded_resource/
+
+.DS_Store
