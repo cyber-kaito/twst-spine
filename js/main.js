@@ -3,7 +3,7 @@ let char;
 let isCharacterLoaded = false;
 let debug = 0; //set via console
 
-function loadChar(model = "./assets/spine/riddle_robes/101_1115040.skel") {
+function loadChar(model = "./assets/spine/101_1115040/101_1115040.skel") {
    isCharacterLoaded = false;
    // remove previous spine
    if (app.stage.children.length > 0) {

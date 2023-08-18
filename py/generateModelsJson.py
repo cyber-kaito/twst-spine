@@ -8,6 +8,8 @@ data = {}
 for i in parentDir:
     # There may be more than one skel in the folder, and there's also possibility of pack mistakes.
     # Currently, not handling this.
+    if (i == ".DS_Store"):
+        continue
     print(i)
     file = [x for x in (os.listdir(f"assets/spine/{i}")) if ".skel" in x]
     if len(file) > 1:
