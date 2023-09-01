@@ -1,0 +1,132 @@
+
+common_9095020.png
+size: 388,388
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_11a
+  rotate: false
+  xy: 0, 118
+  size: 87, 132
+  orig: 300, 300
+  offset: 106, 120
+  index: -1
+emotion_11a
+  rotate: false
+  xy: 255, 74
+  size: 81, 57
+  orig: 350, 350
+  offset: 102, 67
+  index: -1
+emotion_11b
+  rotate: false
+  xy: 256, 198
+  size: 82, 61
+  orig: 350, 350
+  offset: 102, 64
+  index: -1
+emotion_11c
+  rotate: false
+  xy: 172, 0
+  size: 82, 55
+  orig: 350, 350
+  offset: 102, 65
+  index: -1
+emotion_11d
+  rotate: false
+  xy: 89, 187
+  size: 83, 63
+  orig: 350, 350
+  offset: 102, 62
+  index: -1
+emotion_11e
+  rotate: false
+  xy: 0, 51
+  size: 84, 65
+  orig: 350, 350
+  offset: 101, 63
+  index: -1
+emotion_11f
+  rotate: false
+  xy: 256, 325
+  size: 82, 62
+  orig: 350, 350
+  offset: 102, 63
+  index: -1
+emotion_11g
+  rotate: false
+  xy: 172, 57
+  size: 81, 63
+  orig: 350, 350
+  offset: 102, 61
+  index: -1
+emotion_11h
+  rotate: false
+  xy: 174, 325
+  size: 78, 62
+  orig: 350, 350
+  offset: 103, 63
+  index: -1
+emotion_21a
+  rotate: false
+  xy: 258, 139
+  size: 81, 57
+  orig: 350, 350
+  offset: 102, 67
+  index: -1
+emotion_21b
+  rotate: false
+  xy: 174, 133
+  size: 82, 61
+  orig: 350, 350
+  offset: 102, 64
+  index: -1
+emotion_21c
+  rotate: false
+  xy: 256, 17
+  size: 82, 55
+  orig: 350, 350
+  offset: 102, 65
+  index: -1
+emotion_21d
+  rotate: false
+  xy: 89, 122
+  size: 83, 63
+  orig: 350, 350
+  offset: 102, 62
+  index: -1
+emotion_21e
+  rotate: false
+  xy: 86, 51
+  size: 84, 65
+  orig: 350, 350
+  offset: 101, 63
+  index: -1
+emotion_21f
+  rotate: false
+  xy: 256, 261
+  size: 82, 62
+  orig: 350, 350
+  offset: 102, 63
+  index: -1
+emotion_21g
+  rotate: false
+  xy: 139, 260
+  size: 81, 63
+  orig: 350, 350
+  offset: 102, 61
+  index: -1
+emotion_21h
+  rotate: false
+  xy: 174, 196
+  size: 78, 62
+  orig: 350, 350
+  offset: 103, 63
+  index: -1
+head_11a
+  rotate: false
+  xy: 0, 252
+  size: 137, 135
+  orig: 350, 350
+  offset: 98, 54
+  index: -1
