@@ -13,6 +13,7 @@ function loadChar(model = "./assets/spine/101_1115040/101_1115040.skel") {
    try {
       app.loader.resources = {};
       // load new spine
+      app.loader.add("bg", "assets/backgrounds/advbg_61291.png");
       app.loader.add("char", `./${model}`).load(onAssetsLoaded);
    } catch (e) {
       console.error(e);
@@ -20,6 +21,11 @@ function loadChar(model = "./assets/spine/101_1115040/101_1115040.skel") {
 }
 
 function onAssetsLoaded(loader, res) {
+   const bg = new PIXI.Sprite(res.bg.texture);
+   bg.width = app.screen.width;
+   bg.height = app.screen.height;
+   app.stage.addChild(bg);
+
    char = new PIXI.spine.Spine(res.char.spineData);
    const skeleton = char.skeleton;
    function setSkinByName(skinName) {
