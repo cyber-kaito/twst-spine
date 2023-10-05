@@ -14,8 +14,13 @@ function exportAnimation(FPS = 60) {
       view: exportCanvas,
    });
    appExport.loader
+      .add("bg", "assets/backgrounds/advbg_61291.png")
       .add("char", `./${option.models.value}`)
       .load(function (loader, res) {
+         const bg = new PIXI.Sprite(res.bg.texture);
+         bg.width = appExport.screen.width;
+         bg.height = appExport.screen.height;
+         appExport.stage.addChild(bg);
          let exportChar = new PIXI.spine.Spine(res.char.spineData);
          const skeleton = exportChar.skeleton;
          function setSkinByName(skinName) {
