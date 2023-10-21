@@ -6,9 +6,9 @@ This is a modified version of lwd-temp/blue-archive-spine for Twisted Wonderland
 
 **Disney Twisted-Wonderland is a registered trademark of Disney Enterprises, Inc. This repo is not affiliated with The Walt Disney Company, Aniplex, Inc., or Aniplex of America, Inc. All game resources are copyrighted to the respective owners.**
 
-## (Temporary) File Name Guide
+## File Name Guide
 
-I'm currently in the process of renaming the model menu items to make their names more human-readable. The following is a guide on how to parse them to find the model and animation you might be looking for:
+The following is a guide on how to parse the model and animation names to find the model or animation you might be looking for:
 
 ### Model Names
 
