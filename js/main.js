@@ -26,6 +26,7 @@ function onAssetsLoaded(loader, res) {
    bg.height = app.screen.height;
    app.stage.addChild(bg);
 
+   res.char.spineAtlas.pages[0].baseTexture.alphaMode = PIXI.ALPHA_MODES.PMA;
    char = new PIXI.spine.Spine(res.char.spineData);
    const skeleton = char.skeleton;
    function setSkinByName(skinName) {

@@ -21,6 +21,8 @@ function exportAnimation(FPS = 60) {
          bg.width = appExport.screen.width;
          bg.height = appExport.screen.height;
          appExport.stage.addChild(bg);
+         res.char.spineAtlas.pages[0].baseTexture.alphaMode =
+            PIXI.ALPHA_MODES.PMA;
          let exportChar = new PIXI.spine.Spine(res.char.spineData);
          const skeleton = exportChar.skeleton;
          function setSkinByName(skinName) {
